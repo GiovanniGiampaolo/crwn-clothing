@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.css'
-import HomepageComponent from './homepage.component'
+import HomepageComponent from './pages/homepage/homepage.component'
 
 function App() {
-    return (
+    return ( 
         <div>
             <HomepageComponent/>
         </div>
