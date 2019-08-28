@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47e052a-fd33-4a2e-805c-809e0b01b52c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.component..tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/preview-collection/previev-collection.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shop/shop.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shop/shop.contants.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.jsx.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.jsx.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -74,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566910822186</updated>
       <workItem from="1566910825620" duration="7310000" />
-      <workItem from="1566975910547" duration="7212000" />
+      <workItem from="1566975910547" duration="12154000" />
     </task>
     <servers />
   </component>

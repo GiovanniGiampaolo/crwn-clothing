@@ -2,6 +2,7 @@
   "name": "crwn-clothing",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://GiovanniGiampaolo.github.io/crwn-clothing",
   "dependencies": {
     "@types/react": "^16.9.2",
     "@types/react-router-dom": "^4.3.5",
@@ -16,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
