@@ -24,6 +24,11 @@ body {
     padding: 20px 80px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .App-link {
     color: #61dafb;
 }

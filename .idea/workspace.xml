@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47e052a-fd33-4a2e-805c-809e0b01b52c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form-input/form-input.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/form-input/form-input.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/sign-in-sign-up/sign-in-sign-up.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/crown.svg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/preview-collection/previev-collection.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shop/shop.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shop/shop.contants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.contants.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Softlab\WebstormProjects\crwn-clothing\src\assets" />
       <recent name="C:\Users\Softlab\WebstormProjects\crwn-clothing\src\pages" />
       <recent name="C:\Users\Softlab\WebstormProjects\crwn-clothing\src\pages\homepage" />
     </key>
@@ -83,7 +78,9 @@
       <option name="presentableId" value="Default" />
       <updated>1566910822186</updated>
       <workItem from="1566910825620" duration="7310000" />
-      <workItem from="1566975910547" duration="17073000" />
+      <workItem from="1566975910547" duration="17807000" />
+      <workItem from="1567061905268" duration="617000" />
+      <workItem from="1567063763202" duration="1355000" />
     </task>
     <servers />
   </component>
