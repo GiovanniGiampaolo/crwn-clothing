@@ -29,6 +29,10 @@ a {
     color: black;
 }
 
+* {
+    box-sizing: content-box;
+}
+
 .App-link {
     color: #61dafb;
 }
