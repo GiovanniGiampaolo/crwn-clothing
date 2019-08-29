@@ -3,9 +3,10 @@ import {Switch, Route} from 'react-router-dom'
 import './App.css'
 import HomepageComponent from './pages/homepage/homepage.component'
 import ShopPage from './pages/shop/shop.component'
-import SignInSignOutPage from './pages/sign-in-sign-up/sign-in-sign-up'
+import SignInSignOutPage from './pages/sign-in-sign-up/sign-in-sign-up.component'
 import Header from './components/header/header.component'
 import {auth} from './firebase/firebase.utils'
+import {createUserProfileDocument} from '../src/firebase/firebase.utils'
 
 class App extends React.Component {
 
@@ -20,9 +21,25 @@ class App extends React.Component {
     unsubscribeFromAuth = null
 
     componentDidMount() {
-        this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
-            this.setState({currentUser: user})
-            console.log('USR =>',user)
+        this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
+            if (userAuth) {
+                const userRef = await createUserProfileDocument(userAuth)
+
+                userRef.onSnapshot(snapShot => {
+                    console.log('snapShot =>', snapShot)
+                    this.setState({
+                        currentUser: {
+                            id: snapShot.id,
+                            ...snapShot.data()
+                        }
+                    }, () => {
+                        console.log('CURRENT STATE =>', this.state)
+                    })
+                })
+            } else {
+                // same to say currentUser to null
+                this.setState({currentUser: userAuth})
+            }
         })
     }
 
