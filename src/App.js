@@ -7,39 +7,29 @@ import SignInSignOutPage from './pages/sign-in-sign-up/sign-in-sign-up.component
 import Header from './components/header/header.component'
 import {auth} from './firebase/firebase.utils'
 import {createUserProfileDocument} from '../src/firebase/firebase.utils'
+import {connect} from 'react-redux'
+import {setCurrentUserAction} from './redux/user/user.action'
 
 class App extends React.Component {
-
-    constructor() {
-        super()
-
-        this.state = {
-            currentUser: null
-        }
-    }
 
     unsubscribeFromAuth = null
 
     componentDidMount() {
+
         this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
             if (userAuth) {
                 const userRef = await createUserProfileDocument(userAuth)
 
                 userRef.onSnapshot(snapShot => {
                     console.log('snapShot =>', snapShot)
-                    this.setState({
-                        currentUser: {
-                            id: snapShot.id,
-                            ...snapShot.data()
-                        }
-                    }, () => {
-                        console.log('CURRENT STATE =>', this.state)
+                    this.props.setCurrentUser({
+                        id: snapShot.id,
+                        ...snapShot.data()
                     })
                 })
-            } else {
-                // same to say currentUser to null
-                this.setState({currentUser: userAuth})
             }
+            // same to say currentUser to null
+            this.props.setCurrentUser(userAuth)
         })
     }
 
@@ -50,7 +40,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Header currentUser={this.state.currentUser}/>
+                <Header/>
                 <Switch>
                     <Route exact path='/' component={HomepageComponent}/>
                     <Route path='/shop' component={ShopPage}/>
@@ -61,4 +51,8 @@ class App extends React.Component {
     }
 }
 
-export default App
+const mDtP = dispatch => ({
+    setCurrentUser: user => dispatch(setCurrentUserAction(user))
+})
+
+export default connect(null, mDtP)(App)
