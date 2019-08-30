@@ -44,15 +44,20 @@ class App extends React.Component {
                 <Switch>
                     <Route exact path='/' component={HomepageComponent}/>
                     <Route path='/shop' component={ShopPage}/>
-                    <Route path='/signin' component={SignInSignOutPage}/>
+                    {/* eslint-disable-next-line react/jsx-no-undef */}
+                    <Route path='/signin' render={() => this.props.currentUser ? <Redirect to='/'/> : <SignInSignOutPage/>}/>
                 </Switch>
             </div>
         )
     }
 }
 
+const mStP = ({user}) => ({
+    currentUser: user.currentUser
+})
+
 const mDtP = dispatch => ({
     setCurrentUser: user => dispatch(setCurrentUserAction(user))
 })
 
-export default connect(null, mDtP)(App)
+export default connect(mStP, mDtP)(App)

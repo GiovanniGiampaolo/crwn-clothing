@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import {ReactComponent as Logo} from '../../assets/crown.svg.svg'
 import {auth} from '../../firebase/firebase.utils'
 import {connect} from 'react-redux'
+import CartIcon from '../cart-icon/cart-icon.component'
 
 // @ts-ignore
 const Header = ({currentUser}) => (
@@ -29,6 +30,8 @@ const Header = ({currentUser}) => (
                     ? <Link className="option" to={'/signin'}>SIGN IN</Link>
                     : <div className="option" onClick={() => auth.signOut()}>SIGN OUT</div>
             }
+
+            <CartIcon/>
 
         </div>
     </div>
