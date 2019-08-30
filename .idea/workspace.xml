@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47e052a-fd33-4a2e-805c-809e0b01b52c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/root-reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.component..tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form-input/form-input.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form-input/form-input.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.jsx.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -81,7 +88,8 @@
       <workItem from="1566910825620" duration="7310000" />
       <workItem from="1566975910547" duration="17807000" />
       <workItem from="1567061905268" duration="617000" />
-      <workItem from="1567063763202" duration="18069000" />
+      <workItem from="1567063763202" duration="18241000" />
+      <workItem from="1567157582285" duration="2015000" />
     </task>
     <servers />
   </component>
